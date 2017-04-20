@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 
-
+##this is basically for creating the matrix as i need a have a matrix not a atomic vector
     makeCacheMatrix <- function(x = matrix()) {
         mat<-NULL
         set<-function(y){
@@ -25,7 +25,7 @@
 
 
 ## Write a short comment describing this function
-
+##This is the part where the matrix get solved and the inverse i get and if there is a error i show the error message 
 cacheSolve <- function(x, ...) {
     mat<-x$getmatrix()
     if(!is.null(mat)){
